@@ -1,0 +1,95 @@
+:host{
+    
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    --blueclearbg: #aed9da;
+    --bluebg: #adbcd7;
+    --movebg: #daacbe;
+ 
+  
+  
+    .content{
+        width: 60%;
+        background-color: #e6e8ea;
+        .surligner{
+            background: #f3fc7c;
+        }
+        p{
+            color:#372f2e;
+            width: 50%;
+            margin-left: 5vw;
+            margin-bottom: 1rem;
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1{
+           color: #0d0d0d;
+           font-size: 4rem;
+           margin-left: 5vw;
+           font-family: 'Open Sans', sans-serif;
+           width: 50%;
+           margin-bottom: 0;
+           margin-top: 10vh;
+        }
+        
+       .container-people{
+        padding-bottom: 7%;
+        .arrow{
+            width: 8rem;
+       }
+       }
+    }
+
+    .nft-content{
+        width: 40%;
+        background-color: #b3cfd5;
+        
+        card-nft{
+      
+            width: 400px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 15vh;
+        }
+    }
+    .people{
+        margin-left: 3vw;
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+        }       
+        
+        .bluebg{
+            background-color: var(--blueclearbg);
+            transform: translate(0);
+            z-index: 2;
+        }
+        .blueclbg{
+            background-color: var(--bluebg);
+            transform: translateX(30%);
+            z-index: 3;
+        }
+        .movebg{
+            background-color: var(--movebg);
+            transform: translateX(-30%);
+
+        }
+    }
+    .align{
+        align-items: center;
+    }
+    .info{
+        border: 2px solid #e5e1e9;
+        border-top: 3px solid  #e5e1e9;
+        font-family: 'Open Sans', sans-serif;
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+        color: #202323;
+        p:first-child {
+            margin-top: 2rem;
+        }
+    }
+}

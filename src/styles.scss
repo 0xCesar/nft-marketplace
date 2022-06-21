@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+body{
+
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.flex-btw{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-arnd{
+    display: flex;
+    justify-content: space-around;
+}
+.w100{
+    width: 100vw;
+}
+.w80{
+    width: 80vw;
+}
+.w50{
+    width: 50vw;
+}
+.h100{
+    height: 100vh;
+}
+.p80{
+    width: 80%;
+}

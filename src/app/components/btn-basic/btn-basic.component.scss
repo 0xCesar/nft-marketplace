@@ -1,0 +1,23 @@
+:host{
+    button{
+        margin: 0;
+     
+        width: fit-content;
+        padding: 15px 20px;
+        border: none;
+    }
+    .yellow{
+        background: #f3fc7c;
+    }
+    .black{
+        background: #0d0d0d;
+        color: white;
+    }
+    .white{
+        background: #ffffff;
+    }
+    .transparent{
+        border: solid 1px #696969;
+        background: transparent;
+    }
+}
